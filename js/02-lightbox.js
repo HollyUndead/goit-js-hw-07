@@ -1,7 +1,6 @@
 import { galleryItems } from "./gallery-items.js";
 // Change code below this line
 
-console.log(galleryItems);
 let itemList = "";
 
 galleryItems.forEach(({ preview, original, description }) => {
@@ -25,5 +24,4 @@ document.querySelector(".gallery").addEventListener("click", (event) => {
                                                     captionsData: 'alt', 
                                                     captionDelay: 250
                                                 })
-  console.log(lightbox);
 });

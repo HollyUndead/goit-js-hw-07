@@ -28,5 +28,4 @@ document.querySelector(".gallery").addEventListener("click", (event) => {
     <img src="${event.target.dataset.source}">
 `);
   instance.show()
-  console.log(event.target.dataset.source);
 });
