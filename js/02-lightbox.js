@@ -11,9 +11,7 @@ galleryItems.forEach(({ preview, original, description }) => {
     </li>`;
 });
 document.querySelector(".gallery").innerHTML = itemList;
-function elemnetForCaptions() {
-    return document.querySelectorAll('a.gallery_item')
-}
+
 document.querySelector(".gallery").addEventListener("click", (event) => {
   if (event.target.nodeName !== "IMG") {
     return;
